@@ -1,0 +1,54 @@
+
+#TableCon {
+  padding-top: 20px;
+}
+
+#tableTitle {
+  font-size: 30px;
+}
+
+#formDesign {
+  display: flex;
+  flex-direction: row;
+}
+
+#cInput {
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  left: 50px;
+  background: red;
+}
+
+#formDesign {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#WalletDesign {
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+}
+#cardHeadDesign {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.styleForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.centerBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.stylebtn {
+  width: fit-content;
+}
+.stylebtnCancel {
+  border: 1px solid black;
+}
